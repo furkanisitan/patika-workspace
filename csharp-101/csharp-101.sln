@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else-ternany", "src\if-e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditional-statements-intro", "src\hackerrank\conditional-statements-intro\conditional-statements-intro.csproj", "{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch-case", "src\switch-case\switch-case.csproj", "{F457B323-508A-4230-B577-880B7B0F0077}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +159,18 @@ Global
 		{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E}.Release|x64.Build.0 = Release|Any CPU
 		{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E}.Release|x86.ActiveCfg = Release|Any CPU
 		{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E}.Release|x86.Build.0 = Release|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Debug|x64.Build.0 = Debug|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Debug|x86.Build.0 = Debug|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Release|x64.ActiveCfg = Release|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Release|x64.Build.0 = Release|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Release|x86.ActiveCfg = Release|Any CPU
+		{F457B323-508A-4230-B577-880B7B0F0077}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +187,7 @@ Global
 		{B4E46AB0-93B1-43B0-B742-3FD62EE41AA8} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
 		{73CD4F6F-6085-4008-AA92-D2CC458DD207} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
 		{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E} = {160319D0-D35C-4AD6-BA99-E5B864530800}
+		{F457B323-508A-4230-B577-880B7B0F0077} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B94AFF49-C18E-4515-90B9-DFF6915B42E9}
