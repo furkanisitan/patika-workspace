@@ -5,19 +5,21 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57CAE4FE-BA22-4074-8085-A0C29054400F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-programming", "src\console-programming\console-programming.csproj", "{5B5CBDF2-0A8B-4672-A1BD-BAC174B4B4DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "console-programming", "src\console-programming\console-programming.csproj", "{5B5CBDF2-0A8B-4672-A1BD-BAC174B4B4DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hackerrank", "hackerrank", "{160319D0-D35C-4AD6-BA99-E5B864530800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-world", "src\hackerrank\hello-world\hello-world.csproj", "{EBF0F16E-6E09-4F88-93AE-E1717068D285}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello-world", "src\hackerrank\hello-world\hello-world.csproj", "{EBF0F16E-6E09-4F88-93AE-E1717068D285}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variables-and-data-types", "src\variables-and-data-types\variables-and-data-types.csproj", "{056BEE40-752B-4528-8248-9B9D7977BB85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "variables-and-data-types", "src\variables-and-data-types\variables-and-data-types.csproj", "{056BEE40-752B-4528-8248-9B9D7977BB85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operators", "src\operators\operators.csproj", "{C7CD6F30-FEA2-4081-B4DF-AB165701504C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operators", "src\operators\operators.csproj", "{C7CD6F30-FEA2-4081-B4DF-AB165701504C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operators", "src\hackerrank\operators\operators.csproj", "{EB8DD846-5ED6-44B5-A00E-AADC1A12F1F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operators", "src\hackerrank\operators\operators.csproj", "{EB8DD846-5ED6-44B5-A00E-AADC1A12F1F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "type-casting", "src\type-casting\type-casting.csproj", "{84B8FCE0-6AA8-4491-BF97-DAF7B3729636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "type-casting", "src\type-casting\type-casting.csproj", "{84B8FCE0-6AA8-4491-BF97-DAF7B3729636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solve-me-first", "src\hackerrank\solve-me-first\solve-me-first.csproj", "{CD157A17-379C-4BD8-8305-C4D6F92B8245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,18 @@ Global
 		{84B8FCE0-6AA8-4491-BF97-DAF7B3729636}.Release|x64.Build.0 = Release|Any CPU
 		{84B8FCE0-6AA8-4491-BF97-DAF7B3729636}.Release|x86.ActiveCfg = Release|Any CPU
 		{84B8FCE0-6AA8-4491-BF97-DAF7B3729636}.Release|x86.Build.0 = Release|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Debug|x64.Build.0 = Debug|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Debug|x86.Build.0 = Debug|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Release|x64.ActiveCfg = Release|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Release|x64.Build.0 = Release|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Release|x86.ActiveCfg = Release|Any CPU
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +127,7 @@ Global
 		{C7CD6F30-FEA2-4081-B4DF-AB165701504C} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
 		{EB8DD846-5ED6-44B5-A00E-AADC1A12F1F2} = {160319D0-D35C-4AD6-BA99-E5B864530800}
 		{84B8FCE0-6AA8-4491-BF97-DAF7B3729636} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
+		{CD157A17-379C-4BD8-8305-C4D6F92B8245} = {160319D0-D35C-4AD6-BA99-E5B864530800}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B94AFF49-C18E-4515-90B9-DFF6915B42E9}
