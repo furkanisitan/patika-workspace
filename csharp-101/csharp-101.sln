@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operators", "src\hackerrank
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "type-casting", "src\type-casting\type-casting.csproj", "{84B8FCE0-6AA8-4491-BF97-DAF7B3729636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solve-me-first", "src\hackerrank\solve-me-first\solve-me-first.csproj", "{CD157A17-379C-4BD8-8305-C4D6F92B8245}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solve-me-first", "src\hackerrank\solve-me-first\solve-me-first.csproj", "{CD157A17-379C-4BD8-8305-C4D6F92B8245}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception-handling-and-debugging", "src\exception-handling-and-debugging\exception-handling-and-debugging.csproj", "{B4E46AB0-93B1-43B0-B742-3FD62EE41AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exception-handling-and-debugging", "src\exception-handling-and-debugging\exception-handling-and-debugging.csproj", "{B4E46AB0-93B1-43B0-B742-3FD62EE41AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else-ternany", "src\if-else-ternany\if-else-ternany.csproj", "{73CD4F6F-6085-4008-AA92-D2CC458DD207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if-else-ternany", "src\if-else-ternany\if-else-ternany.csproj", "{73CD4F6F-6085-4008-AA92-D2CC458DD207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditional-statements-intro", "src\hackerrank\conditional-statements-intro\conditional-statements-intro.csproj", "{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditional-statements-intro", "src\hackerrank\conditional-statements-intro\conditional-statements-intro.csproj", "{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch-case", "src\switch-case\switch-case.csproj", "{F457B323-508A-4230-B577-880B7B0F0077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch-case", "src\switch-case\switch-case.csproj", "{F457B323-508A-4230-B577-880B7B0F0077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for-break-continue", "src\for-break-continue\for-break-continue.csproj", "{B6553921-3AC0-4A00-9074-5A132F35BE8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,18 @@ Global
 		{F457B323-508A-4230-B577-880B7B0F0077}.Release|x64.Build.0 = Release|Any CPU
 		{F457B323-508A-4230-B577-880B7B0F0077}.Release|x86.ActiveCfg = Release|Any CPU
 		{F457B323-508A-4230-B577-880B7B0F0077}.Release|x86.Build.0 = Release|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Debug|x64.Build.0 = Debug|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Debug|x86.Build.0 = Debug|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Release|x64.ActiveCfg = Release|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Release|x64.Build.0 = Release|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +202,7 @@ Global
 		{73CD4F6F-6085-4008-AA92-D2CC458DD207} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
 		{EF9495DD-DA54-45BC-9BAD-E414A2A43E0E} = {160319D0-D35C-4AD6-BA99-E5B864530800}
 		{F457B323-508A-4230-B577-880B7B0F0077} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
+		{B6553921-3AC0-4A00-9074-5A132F35BE8C} = {57CAE4FE-BA22-4074-8085-A0C29054400F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B94AFF49-C18E-4515-90B9-DFF6915B42E9}
